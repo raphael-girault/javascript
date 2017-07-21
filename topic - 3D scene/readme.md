@@ -27,5 +27,7 @@ The aim is to create a kind of 3D motor that display 2D shapes in a 3D scene.
     
     
 We use : 
-    - P5.js as main framework to run the code (https://p5js.org)
-    - Modzila matrix library (https://developer.mozilla.org/fr/docs/Web/API/WebGL_API/Matrix_math_for_the_web)
+
+- P5.js as main framework to run the code (https://p5js.org)
+
+- Modzila matrix library (https://developer.mozilla.org/fr/docs/Web/API/WebGL_API/Matrix_math_for_the_web)
