@@ -1,0 +1,48 @@
+<html>
+    <head> 
+      <meta charset="UTF-8" /> 
+      <style> body {padding: 0; margin: 0;} </style>
+
+
+
+         <!-- SCRIPTS -->
+            <!-- LIBS -->
+                <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> 
+                <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+        
+                <script language="javascript" type="text/javascript" src="mdn-matrix.js"></script>
+        
+        
+            <!-- OWN JS FILES -->
+                <script language="javascript" type="text/javascript" src="sketch.js"></script>
+                <script language="javascript" type="text/javascript" src="trihedron.js"></script>
+                <script language="javascript" type="text/javascript" src="point.js"></script>
+                <script language="javascript" type="text/javascript" src="toolsMath.js"></script>
+
+    </head> 
+    
+    
+    <!-- delete the panel when an user does a right click -->
+    <!-- will be useful to select points with the right click of the mouse -->
+    <body oncontextmenu="return false;">
+        
+        <!-- set the disposition of the elements on the screen -->
+            <!-- main table to place elements -->
+                <table>
+                    <tr>
+                        <!-- for the canvas -->
+                            <td id="tdCanvas"></td>
+                        <!-- for the gui (at right) -->
+                            <td id="tdGui">
+                                <p>Left-click + drag mouse to rotate the scene</p>
+                                <p>Right-click + drag mouse to move the scene</p>
+                                <p>T key to reset the sketch</p>
+                                <p>R key to reset the position and the rotation of the scene</p>
+                            </td>
+                    </tr>
+                </table>
+        
+    </body>
+    
+    
+</html>
