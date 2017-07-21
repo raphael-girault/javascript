@@ -1,11 +1,16 @@
 #Topic - 3D scene
 
 Test to create a trihedron in 3D scene and move it with the mouse.
+
 The control are : 
-    - Left click + drag mouse to rotate the scene
-    - Right click + drag mouse to move the scene
-    - R key to fully reset the position of the 3D scene
-    - T key to reset the sketch
+
+- Left click + drag mouse to rotate the scene
+
+- Right click + drag mouse to move the scene
+
+- R key to fully reset the position of the 3D scene
+
+- T key to reset the sketch
     
     
     
