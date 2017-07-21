@@ -12,7 +12,8 @@ The control are :
 
 - T key to reset the sketch
     
-    
+
+
     
 The first idea is to create a trihedron that shows the position of the center of the 3D scene.
 The second thing is to create a link between points and the trihedron to apply the modifications on the 3D scene and set correctly the positions of the points.
